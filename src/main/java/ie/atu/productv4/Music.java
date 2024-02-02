@@ -30,6 +30,6 @@ public class Music extends Product{
     }
 
     public String toString(){
-        return super.toString() + " by " + Artist;
+        return super.toString() + " by " + Artist + "\n" + Label;
     }
 }
